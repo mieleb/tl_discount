@@ -1,0 +1,49 @@
+{
+    "variables": [],
+    "info": {
+        "name": "Laravel API",
+        "_postman_id": "6e6754a4-7bbf-43e9-89b1-deeb8c8ba130",
+        "description": "",
+        "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.0.0\/collection.json"
+    },
+    "item": [
+        {
+            "name": "Discounts for orders",
+            "description": "\nAPIs for discounts",
+            "item": [
+                {
+                    "name": "api\/discount",
+                    "request": {
+                        "url": {
+                            "protocol": "http",
+                            "host": "teamleader-coupon.docksal",
+                            "path": "api\/discount",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"id\": 9,\n    \"customer-id\": \"magnam\",\n    \"items\": [\n        {\n            \"product-id\": \"unde\",\n            \"quantity\": 14,\n            \"unit-price\": 167520171.429,\n            \"total\": 41.747\n        }\n    ],\n    \"total\": 32.7831759,\n    \"language\": \"consequatur\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        }
+    ]
+}

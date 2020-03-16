@@ -1,0 +1,6 @@
+## Runs composer (fin help composer)
+##
+## Examples:
+##   fin composer install
+
+fin exec php -d memory_limit=-1 /usr/local/bin/composer $1

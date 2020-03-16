@@ -1,0 +1,3 @@
+## Runs phpunit
+
+fin exec vendor/bin/phpunit $1

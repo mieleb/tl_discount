@@ -1,0 +1,15 @@
+# https://docs.docksal.io/use-cases/nodejs/
+fin exec nvm install 8
+fin exec nvm alias default 8
+
+fin exec npm install
+fin exec npm run dev
+
+fin exec cp .env.example .env
+
+fin composer install
+
+fin exec php artisan migrate
+fin exec php artisan db:seed
+
+fin exec php artisan apidoc:generate
