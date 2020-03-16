@@ -2,7 +2,7 @@
     "variables": [],
     "info": {
         "name": "Laravel API",
-        "_postman_id": "6e6754a4-7bbf-43e9-89b1-deeb8c8ba130",
+        "_postman_id": "7b014e65-8d32-43ae-a283-74a1239c1e09",
         "description": "",
         "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.0.0\/collection.json"
     },
@@ -16,7 +16,7 @@
                     "request": {
                         "url": {
                             "protocol": "http",
-                            "host": "teamleader-coupon.docksal",
+                            "host": "tl-discount.docksal",
                             "path": "api\/discount",
                             "query": []
                         },
@@ -37,7 +37,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"id\": 9,\n    \"customer-id\": \"magnam\",\n    \"items\": [\n        {\n            \"product-id\": \"unde\",\n            \"quantity\": 14,\n            \"unit-price\": 167520171.429,\n            \"total\": 41.747\n        }\n    ],\n    \"total\": 32.7831759,\n    \"language\": \"consequatur\"\n}"
+                            "raw": "{\n    \"id\": 9,\n    \"customer-id\": \"sint\",\n    \"items\": [\n        {\n            \"product-id\": \"nisi\",\n            \"quantity\": 14,\n            \"unit-price\": 1,\n            \"total\": 56535.688401\n        }\n    ],\n    \"total\": 102784223.42975235,\n    \"language\": \"qui\"\n}"
                         },
                         "description": "",
                         "response": []

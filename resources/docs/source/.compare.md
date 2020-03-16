@@ -18,7 +18,7 @@ toc_footers:
 # Info
 
 Welcome to the generated API reference.
-[Get Postman Collection](http://teamleader-coupon.docksal/docs/collection.json)
+[Get Postman Collection](http://tl-discount.docksal/docs/collection.json)
 
 <!-- END_INFO -->
 
@@ -32,17 +32,17 @@ APIs for discounts
 
 ```bash
 curl -X POST \
-    "http://teamleader-coupon.docksal/api/discount" \
+    "http://tl-discount.docksal/api/discount" \
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
     -H "Authorization: Bearer {token}" \
-    -d '{"id":9,"customer-id":"magnam","items":[{"product-id":"unde","quantity":14,"unit-price":167520171.429,"total":41.747}],"total":32.7831759,"language":"consequatur"}'
+    -d '{"id":9,"customer-id":"sint","items":[{"product-id":"nisi","quantity":14,"unit-price":1,"total":56535.688401}],"total":102784223.42975235,"language":"qui"}'
 
 ```
 
 ```javascript
 const url = new URL(
-    "http://teamleader-coupon.docksal/api/discount"
+    "http://tl-discount.docksal/api/discount"
 );
 
 let headers = {
@@ -53,17 +53,17 @@ let headers = {
 
 let body = {
     "id": 9,
-    "customer-id": "magnam",
+    "customer-id": "sint",
     "items": [
         {
-            "product-id": "unde",
+            "product-id": "nisi",
             "quantity": 14,
-            "unit-price": 167520171.429,
-            "total": 41.747
+            "unit-price": 1,
+            "total": 56535.688401
         }
     ],
-    "total": 32.7831759,
-    "language": "consequatur"
+    "total": 102784223.42975235,
+    "language": "qui"
 }
 
 fetch(url, {
@@ -79,7 +79,7 @@ fetch(url, {
 
 $client = new \GuzzleHttp\Client();
 $response = $client->post(
-    'http://teamleader-coupon.docksal/api/discount',
+    'http://tl-discount.docksal/api/discount',
     [
         'headers' => [
             'Content-Type' => 'application/json',
@@ -88,17 +88,17 @@ $response = $client->post(
         ],
         'json' => [
             'id' => 9,
-            'customer-id' => 'magnam',
+            'customer-id' => 'sint',
             'items' => [
                 [
-                    'product-id' => 'unde',
+                    'product-id' => 'nisi',
                     'quantity' => 14,
-                    'unit-price' => 167520171.429,
-                    'total' => 41.747,
+                    'unit-price' => 1.0,
+                    'total' => 56535.688401,
                 ],
             ],
-            'total' => 32.7831759,
-            'language' => 'consequatur',
+            'total' => 102784223.42975235,
+            'language' => 'qui',
         ],
     ]
 );
@@ -110,20 +110,20 @@ print_r(json_decode((string) $body));
 import requests
 import json
 
-url = 'http://teamleader-coupon.docksal/api/discount'
+url = 'http://tl-discount.docksal/api/discount'
 payload = {
     "id": 9,
-    "customer-id": "magnam",
+    "customer-id": "sint",
     "items": [
         {
-            "product-id": "unde",
+            "product-id": "nisi",
             "quantity": 14,
-            "unit-price": 167520171.429,
-            "total": 41.747
+            "unit-price": 1,
+            "total": 56535.688401
         }
     ],
-    "total": 32.7831759,
-    "language": "consequatur"
+    "total": 102784223.42975235,
+    "language": "qui"
 }
 headers = {
   'Content-Type': 'application/json',
