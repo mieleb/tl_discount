@@ -36,7 +36,7 @@ curl -X POST \
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
     -H "Authorization: Bearer {token}" \
-    -d '{"id":9,"customer-id":"sint","items":[{"product-id":"nisi","quantity":14,"unit-price":1,"total":56535.688401}],"total":102784223.42975235,"language":"qui"}'
+    -d '{"id":9,"customer-id":15,"items":[{"product-id":"beatae","quantity":1,"unit-price":539366.167,"total":91671221}],"total":168.994319,"language":"hic"}'
 
 ```
 
@@ -53,17 +53,17 @@ let headers = {
 
 let body = {
     "id": 9,
-    "customer-id": "sint",
+    "customer-id": 15,
     "items": [
         {
-            "product-id": "nisi",
-            "quantity": 14,
-            "unit-price": 1,
-            "total": 56535.688401
+            "product-id": "beatae",
+            "quantity": 1,
+            "unit-price": 539366.167,
+            "total": 91671221
         }
     ],
-    "total": 102784223.42975235,
-    "language": "qui"
+    "total": 168.994319,
+    "language": "hic"
 }
 
 fetch(url, {
@@ -88,17 +88,17 @@ $response = $client->post(
         ],
         'json' => [
             'id' => 9,
-            'customer-id' => 'sint',
+            'customer-id' => 15,
             'items' => [
                 [
-                    'product-id' => 'nisi',
-                    'quantity' => 14,
-                    'unit-price' => 1.0,
-                    'total' => 56535.688401,
+                    'product-id' => 'beatae',
+                    'quantity' => 1,
+                    'unit-price' => 539366.167,
+                    'total' => 91671221.0,
                 ],
             ],
-            'total' => 102784223.42975235,
-            'language' => 'qui',
+            'total' => 168.994319,
+            'language' => 'hic',
         ],
     ]
 );
@@ -113,17 +113,17 @@ import json
 url = 'http://tl-discount.docksal/api/discount'
 payload = {
     "id": 9,
-    "customer-id": "sint",
+    "customer-id": 15,
     "items": [
         {
-            "product-id": "nisi",
-            "quantity": 14,
-            "unit-price": 1,
-            "total": 56535.688401
+            "product-id": "beatae",
+            "quantity": 1,
+            "unit-price": 539366.167,
+            "total": 91671221
         }
     ],
-    "total": 102784223.42975235,
-    "language": "qui"
+    "total": 168.994319,
+    "language": "hic"
 }
 headers = {
   'Content-Type': 'application/json',
@@ -161,7 +161,7 @@ response.json()
 Parameter | Type | Status | Description
 --------- | ------- | ------- | ------- | -----------
     `id` | integer |  required  | The id of the order.
-        `customer-id` | required |  optional  | integer The id of the customer.
+        `customer-id` | integer |  required  | The id of the customer.
         `items` | array |  required  | OrderItems
         `items.*.product-id` | string |  required  | Product Id of the orderitem
         `items.*.quantity` | integer |  required  | Quantity of the orderitem

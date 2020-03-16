@@ -62,7 +62,7 @@
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
     -H "Authorization: Bearer {token}" \
-    -d '{"id":9,"customer-id":"sint","items":[{"product-id":"nisi","quantity":14,"unit-price":1,"total":56535.688401}],"total":102784223.42975235,"language":"qui"}'
+    -d '{"id":9,"customer-id":15,"items":[{"product-id":"beatae","quantity":1,"unit-price":539366.167,"total":91671221}],"total":168.994319,"language":"hic"}'
 </code></pre>
 <pre><code class="language-javascript">const url = new URL(
     "http://tl-discount.docksal/api/discount"
@@ -76,17 +76,17 @@ let headers = {
 
 let body = {
     "id": 9,
-    "customer-id": "sint",
+    "customer-id": 15,
     "items": [
         {
-            "product-id": "nisi",
-            "quantity": 14,
-            "unit-price": 1,
-            "total": 56535.688401
+            "product-id": "beatae",
+            "quantity": 1,
+            "unit-price": 539366.167,
+            "total": 91671221
         }
     ],
-    "total": 102784223.42975235,
-    "language": "qui"
+    "total": 168.994319,
+    "language": "hic"
 }
 
 fetch(url, {
@@ -108,17 +108,17 @@ $response = $client-&gt;post(
         ],
         'json' =&gt; [
             'id' =&gt; 9,
-            'customer-id' =&gt; 'sint',
+            'customer-id' =&gt; 15,
             'items' =&gt; [
                 [
-                    'product-id' =&gt; 'nisi',
-                    'quantity' =&gt; 14,
-                    'unit-price' =&gt; 1.0,
-                    'total' =&gt; 56535.688401,
+                    'product-id' =&gt; 'beatae',
+                    'quantity' =&gt; 1,
+                    'unit-price' =&gt; 539366.167,
+                    'total' =&gt; 91671221.0,
                 ],
             ],
-            'total' =&gt; 102784223.42975235,
-            'language' =&gt; 'qui',
+            'total' =&gt; 168.994319,
+            'language' =&gt; 'hic',
         ],
     ]
 );
@@ -130,17 +130,17 @@ import json
 url = 'http://tl-discount.docksal/api/discount'
 payload = {
     "id": 9,
-    "customer-id": "sint",
+    "customer-id": 15,
     "items": [
         {
-            "product-id": "nisi",
-            "quantity": 14,
-            "unit-price": 1,
-            "total": 56535.688401
+            "product-id": "beatae",
+            "quantity": 1,
+            "unit-price": 539366.167,
+            "total": 91671221
         }
     ],
-    "total": 102784223.42975235,
-    "language": "qui"
+    "total": 168.994319,
+    "language": "hic"
 }
 headers = {
   'Content-Type': 'application/json',
@@ -187,9 +187,9 @@ response.json()</code></pre>
 </tr>
 <tr>
 <td><code>customer-id</code></td>
+<td>integer</td>
 <td>required</td>
-<td>optional</td>
-<td>integer The id of the customer.</td>
+<td>The id of the customer.</td>
 </tr>
 <tr>
 <td><code>items</code></td>

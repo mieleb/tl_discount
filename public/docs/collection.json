@@ -2,7 +2,7 @@
     "variables": [],
     "info": {
         "name": "Laravel API",
-        "_postman_id": "7b014e65-8d32-43ae-a283-74a1239c1e09",
+        "_postman_id": "d9101fae-8a9d-432a-87d6-4d6ba469d04c",
         "description": "",
         "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.0.0\/collection.json"
     },
@@ -37,7 +37,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"id\": 9,\n    \"customer-id\": \"sint\",\n    \"items\": [\n        {\n            \"product-id\": \"nisi\",\n            \"quantity\": 14,\n            \"unit-price\": 1,\n            \"total\": 56535.688401\n        }\n    ],\n    \"total\": 102784223.42975235,\n    \"language\": \"qui\"\n}"
+                            "raw": "{\n    \"id\": 9,\n    \"customer-id\": 15,\n    \"items\": [\n        {\n            \"product-id\": \"beatae\",\n            \"quantity\": 1,\n            \"unit-price\": 539366.167,\n            \"total\": 91671221\n        }\n    ],\n    \"total\": 168.994319,\n    \"language\": \"hic\"\n}"
                         },
                         "description": "",
                         "response": []

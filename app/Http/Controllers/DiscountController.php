@@ -21,7 +21,7 @@ class DiscountController extends Controller
 {
     /**
      * @bodyParam id int required The id of the order. Example: 9
-     * @bodyParam customer-id required integer The id of the customer.
+     * @bodyParam customer-id integer required The id of the customer.
      * @bodyParam items array required OrderItems
      * @bodyParam items.*.product-id string required Product Id of the orderitem
      * @bodyParam items.*.quantity integer required Quantity of the orderitem
