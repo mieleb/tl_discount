@@ -18,4 +18,4 @@ run `fin phpunit`
 
 ## Api Docs
 
-[Discounts](resources/docs/source/index.md)
+[Discounts](http://tl-discount.docksal/docs/)
